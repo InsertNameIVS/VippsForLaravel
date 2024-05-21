@@ -1,0 +1,29 @@
+{
+    "name": "insertname/vipps",
+    "description": "Laravel package to support MobilePay/Vipps payments",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Insertname\\Vipps\\": "src/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "DKBenny"
+        },
+        {
+            "name": "k7h"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Insertname\\Vipps\\ServiceProvider"
+            ]
+        }
+    }
+}
