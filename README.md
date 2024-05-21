@@ -4,7 +4,7 @@ This package is for Laravel to accept Vipps/Mobilepay payments. Plug and play, y
 
 # Usage
 Put the following variables in your .env
-
+```
 VIPPS_CLIENT_ID=
 VIPPS_CLIENT_SECRET=
 VIPPS_MERCHANT_SERIAL_NUMBER=
@@ -15,5 +15,5 @@ VIPPS_API_URL=https://api.vipps.no #For production
 VIPPS_RETURN_URL=
 VIPPS_WEBHOOK_ID=
 VIPPS_WEBHOOK_SECRET=
-
-To produce a webhook, just use the command 'php artisan vipps:webhook'
+```
+To produce a webhook, just use the command `php artisan vipps:webhook`
